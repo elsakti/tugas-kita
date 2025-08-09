@@ -161,7 +161,7 @@ export default function Featured() {
                     right: 0,
                     bottom: 0,
                     background:
-                      "linear-gradient(135deg, rgba(89, 151, 249, 0.95) 0%, rgba(166, 131, 248, 0.95) 50%, rgba(236, 72, 153, 0.95) 100%)",
+                      "linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(138, 207, 253, 0.95) 50%, rgba(56, 182, 255, 0.95) 100%)",
                     opacity: 0,
                     transform: "translateY(20px)",
                     transition: "all 0.8s cubic-bezier(0.23, 1, 0.32, 1)",

@@ -1,0 +1,49 @@
+.hero-title {
+  display: inline-block;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+
+.hero-title::before,
+.hero-title::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  animation: split 3s ease forwards;
+}
+
+.hero-title::before {
+  clip-path: inset(0 0 50% 0);
+}
+
+.hero-title::after {
+  clip-path: inset(50% 0 0 0);
+}
+
+@keyframes split {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}

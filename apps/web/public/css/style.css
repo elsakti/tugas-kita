@@ -10,46 +10,45 @@ https://templatemo.com/tm-590-topic-listing
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --white-color: #ffffff;
+  --primary-color: #38b6ff;
+  --secondary-color: #ff66c4;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #80d0c7;
+  --custom-btn-bg-hover-color: #13547a;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #7fffd4;
+  --link-hover-color: #13547a;
 
-  --body-font-family:             'Open Sans', sans-serif;
-  --title-font-family:            'Montserrat', sans-serif;
+  --body-font-family: "Open Sans", sans-serif;
+  --title-font-family: "Montserrat", sans-serif;
 
-  --h1-font-size:                 58px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  20px;
-  --menu-font-size:               14px;
-  --btn-font-size:                18px;
-  --copyright-font-size:          16px;
+  --h1-font-size: 58px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 20px;
+  --menu-font-size: 14px;
+  --btn-font-size: 18px;
+  --copyright-font-size: 16px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
 
-  --font-weight-normal:           400;
-  --font-weight-medium:           500;
-  --font-weight-semibold:         600;
-  --font-weight-bold:             700;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
 }
 
 body {
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
 }
-
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -69,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title-font-family); 
+  font-family: var(--title-font-family);
   font-weight: var(--font-weight-semibold);
 }
 
@@ -112,7 +111,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -132,7 +131,6 @@ b,
 strong {
   font-weight: var(--font-weight-bold);
 }
-
 
 /*---------------------------------------
   SECTION               
@@ -189,14 +187,13 @@ strong {
   margin-right: 20px;
 }
 
-.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   border-bottom-color: var(--primary-color);
   color: var(--primary-color);
 }
-
 
 /*---------------------------------------
   CUSTOM ICON COLOR               
@@ -204,7 +201,6 @@ strong {
 .custom-icon {
   color: var(--secondary-color);
 }
-
 
 /*---------------------------------------
   CUSTOM BUTTON               
@@ -243,7 +239,6 @@ strong {
   color: var(--white-color);
 }
 
-
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
@@ -257,7 +252,7 @@ strong {
   height: 100%;
 }
 
-.breadcrumb-item+.breadcrumb-item::before,
+.breadcrumb-item + .breadcrumb-item::before,
 .breadcrumb-item a:hover,
 .breadcrumb-item.active {
   color: var(--white-color);
@@ -271,7 +266,6 @@ strong {
 .site-header .custom-icon:hover {
   color: var(--secondary-color);
 }
-
 
 /*---------------------------------------
   NAVIGATION              
@@ -313,7 +307,7 @@ strong {
 .navbar-nav .nav-link {
   display: inline-block;
   color: var(--white-color);
-  font-family: var(--title-font-family); 
+  font-family: var(--title-font-family);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -321,16 +315,18 @@ strong {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--section-bg-color);
+  transform: scale(1.1);
 }
 
 .navbar .dropdown-menu {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border: 0;
   display: inherit;
   opacity: 0;
@@ -356,7 +352,7 @@ strong {
 .navbar .dropdown-item {
   display: inline-block;
   color: var(--p-bg-color);
-  font-family: var(--title-font-family); 
+  font-family: var(--title-font-family);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -364,9 +360,9 @@ strong {
   position: relative;
 }
 
-.navbar .dropdown-item.active, 
+.navbar .dropdown-item.active,
 .navbar .dropdown-item:active,
-.navbar .dropdown-item:focus, 
+.navbar .dropdown-item:focus,
 .navbar .dropdown-item:hover {
   background: transparent;
   color: var(--primary-color);
@@ -382,7 +378,7 @@ strong {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -436,9 +432,16 @@ strong {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-  transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
+  transition:
+    top 300ms 50ms ease,
+    -webkit-transform 300ms 350ms ease;
+  transition:
+    top 300ms 50ms ease,
+    transform 300ms 350ms ease;
+  transition:
+    top 300ms 50ms ease,
+    transform 300ms 350ms ease,
+    -webkit-transform 300ms 350ms ease;
   top: 0;
 }
 
@@ -461,16 +464,23 @@ strong {
 
 .navbar-toggler .navbar-toggler-icon:before,
 .navbar-toggler .navbar-toggler-icon:after {
-  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+  transition:
+    top 300ms 350ms ease,
+    -webkit-transform 300ms 50ms ease;
+  transition:
+    top 300ms 350ms ease,
+    transform 300ms 50ms ease;
+  transition:
+    top 300ms 350ms ease,
+    transform 300ms 50ms ease,
+    -webkit-transform 300ms 50ms ease;
   position: absolute;
   right: 0;
   left: 0;
   background: var(--white-color);
   width: 30px;
   height: 2px;
-  content: '';
+  content: "";
 }
 
 .navbar-toggler .navbar-toggler-icon::before {
@@ -481,12 +491,15 @@ strong {
   top: 8px;
 }
 
-
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(70, 181, 232, 1) 25%,
+    rgba(166, 226, 247, 1) 100%
+  );
   position: relative;
   overflow: hidden;
   padding-top: 150px;
@@ -519,12 +532,15 @@ strong {
   max-width: 150px;
 }
 
-
 /*---------------------------------------
   TOPICS              
 -----------------------------------------*/
 .featured-section {
-  background-color: var(--secondary-color);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(70, 181, 232, 1) 100%
+  );
   border-radius: 0 0 100px 100px;
   padding-bottom: 100px;
 }
@@ -616,29 +632,28 @@ strong {
 }
 
 .bg-design {
-  background-color: #00B0FF;
+  background-color: #00b0ff;
 }
 
 .bg-graphic {
-  background-color: #00BFA6;
+  background-color: #00bfa6;
 }
 
 .bg-advertising {
-  background-color: #F50057;
+  background-color: #f50057;
 }
 
 .bg-finance {
-  background-color: #536DFE;
+  background-color: #536dfe;
 }
 
 .bg-music {
-  background-color: #F9A826;
+  background-color: #f9a826;
 }
 
 .bg-education {
-  background-color: #00BFA6;
+  background-color: #00bfa6;
 }
-
 
 /*---------------------------------------
   TOPICS               
@@ -682,7 +697,6 @@ blockquote {
   width: 200px;
 }
 
-
 /*---------------------------------------
   PAGINATION              
 -----------------------------------------*/
@@ -716,17 +730,17 @@ blockquote {
   border-radius: var(--border-radius-small);
 }
 
-.active>.page-link, .page-link.active {
+.active > .page-link,
+.page-link.active {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
-
 
 /*---------------------------------------
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  background-image: url("../images/colleagues-working-cozy-office-medium-shot.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -821,10 +835,12 @@ blockquote {
   background-color: var(--primary-color);
 }
 
-.timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
+.timeline-container
+  .vertical-scrollable-timeline
+  li.active
+  .icon-holder::before {
   background-color: var(--primary-color);
 }
-
 
 /*---------------------------------------
   FAQs              
@@ -861,7 +877,6 @@ blockquote {
   border-radius: var(--border-radius-medium);
 }
 
-
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
@@ -869,11 +884,10 @@ blockquote {
   border-radius: var(--border-radius-medium);
 }
 
-.contact-form .form-floating>textarea {
+.contact-form .form-floating > textarea {
   border-radius: var(--border-radius-medium);
   height: 150px;
 }
-
 
 /*---------------------------------------
   SUBSCRIBE FORM               
@@ -885,7 +899,6 @@ blockquote {
 .subscribe-form {
   width: 95%;
 }
-
 
 /*---------------------------------------
   CUSTOM FORM               
@@ -900,12 +913,12 @@ blockquote {
   outline: none;
 }
 
-.form-floating>label {
+.form-floating > label {
   padding-left: 20px;
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: var(--secondary-color);
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -921,7 +934,6 @@ blockquote {
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
 }
-
 
 /*---------------------------------------
   SITE FOOTER              
@@ -945,7 +957,7 @@ blockquote {
 }
 
 .site-footer-title {
-  color: var(--primary-color); 
+  color: var(--primary-color);
 }
 
 .site-footer .dropdown-menu {
@@ -1003,7 +1015,6 @@ blockquote {
   font-size: var(--copyright-font-size);
 }
 
-
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
@@ -1029,14 +1040,15 @@ blockquote {
   width: 35px;
   height: 35px;
   line-height: 36px;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .social-icon-link:hover {
   background: var(--primary-color);
   color: var(--white-color);
 }
-
 
 /*---------------------------------------
   RESPONSIVE STYLES               
@@ -1070,7 +1082,7 @@ blockquote {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .navbar {
     background-color: var(--secondary-color);
   }
@@ -1152,4 +1164,3 @@ blockquote {
     font-size: 20px;
   }
 }
-
