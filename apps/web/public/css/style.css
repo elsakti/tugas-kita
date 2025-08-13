@@ -15,11 +15,11 @@ https://templatemo.com/tm-590-topic-listing
   --secondary-color: #ff66c4;
   --section-bg-color: #f0f8ff;
   --custom-btn-bg-color: #80d0c7;
-  --custom-btn-bg-hover-color: #13547a;
+  --custom-btn-bg-hover-color: #a75587;
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #7fffd4;
-  --link-hover-color: #13547a;
+  --link-hover-color: #38b6ff;
 
   --body-font-family: "Open Sans", sans-serif;
   --title-font-family: "Montserrat", sans-serif;
@@ -145,7 +145,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #ffffff 0%, #ff66c4 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -206,7 +206,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: var(--secondary-color);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -278,7 +278,56 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--secondary-color);
+  /* Primary glass background */
+  background: rgba(255, 255, 255, 0.15);
+
+  /* Enhanced backdrop blur for iOS-like effect */
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+
+  /* Subtle border with enhanced opacity */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  /* Add subtle top border for depth */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  /* Box shadow for floating effect */
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.5) inset,
+    0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+
+  /* Ensure proper stacking */
+  position: relative;
+  z-index: 1000;
+}
+
+/* Optional: Add a subtle gradient overlay for extra glossiness */
+.sticky-wrapper.is-sticky .navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Enhance text contrast for better readability */
+.sticky-wrapper.is-sticky .navbar * {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Add smooth transition */
+.navbar {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .navbar {
@@ -315,7 +364,10 @@ strong {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
-  transition: transform 0.2s ease, color 0.2s ease;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
 }
 
 .navbar-nav .nav-link.active,
@@ -1084,7 +1136,10 @@ blockquote {
   }
 
   .navbar {
-    background-color: var(--secondary-color);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .navbar-nav .dropdown-menu {

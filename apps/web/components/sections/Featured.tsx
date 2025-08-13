@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import "../../public/css/featured-card.css";
 
 export default function Featured() {
@@ -40,7 +39,7 @@ export default function Featured() {
                   card.style.transform =
                     "translateY(-20px) rotateX(8deg) rotateY(-5deg)";
                   card.style.boxShadow =
-                    "0 40px 80px rgba(0,0,0,0.25), 0 20px 40px rgba(59, 130, 246, 0.3)";
+                  "0 40px 80px rgba(255, 255, 255, 0.3), 0 20px 40px rgba(255, 255, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4)";
 
                   // Show overlay with stagger
                   if (overlay) {
@@ -90,7 +89,7 @@ export default function Featured() {
 
                   // Reset card transform
                   card.style.transform = "translateY(0) rotateX(0) rotateY(0)";
-                  card.style.boxShadow = "0 10px 25px rgba(0,0,0,0.1)";
+                  card.style.boxShadow = "0 10px 25px rgba(255, 255, 255, 0.15), 0 5px 15px rgba(255, 255, 255, 0.1)";
 
                   // Hide overlay
                   if (overlay) {
@@ -328,14 +327,6 @@ export default function Featured() {
             <div className="col-lg-6 col-12">
               <div className="custom-block custom-block-overlay">
                 <div className="d-flex flex-column h-100">
-                  <Image
-                    src="/images/businesswoman-using-tablet-analysis.jpg"
-                    className="custom-block-image img-fluid"
-                    alt="Businesswoman using tablet for analysis"
-                    width={600}
-                    height={400}
-                  />
-
                   <div className="custom-block-overlay-text d-flex">
                     <div>
                       <h5 className="text-white mb-2">
