@@ -135,16 +135,16 @@ export default function Featured() {
                           fontWeight: "700",
                         }}
                       >
-                        AI-Powered CV Analysis
+                      Analisis CV dengan AI
                       </h5>
                       <p
-                        className="mb-0"
-                        style={{ color: "#64748b", lineHeight: "1.6" }}
+                      className="mb-0"
+                      style={{ color: "#64748b", lineHeight: "1.6" }}
                       >
-                        Get instant feedback with our smart AI scanner, Boost
-                        your ATS score.
-                        <br />
-                        <b>HOVER ME</b>
+                      Scan CV kamu dan dapatkan feedback instant untuk boost
+                      ATS score dalam hitungan detik.
+                      <br />
+                      <b>HOVER DISINI</b>
                       </p>
                     </div>
                   </div>
@@ -250,12 +250,12 @@ export default function Featured() {
                       e.stopPropagation();
                       // Add your CV scan logic here
                       alert(
-                        "CV Scanner activated! Upload your CV to get started."
+                      "AI Scanner aktif! Upload CV kamu untuk mulai analisis."
                       );
                     }}
                   >
                     <span style={{ position: "relative", zIndex: 2 }}>
-                      📄 Scan Your CV Now
+                    📄 Scan CV Sekarang
                     </span>
                     {/* Button glow effect */}
                     <div
@@ -286,9 +286,9 @@ export default function Featured() {
                       opacity: 0,
                       animation: "fadeInUp 0.8s ease 0.5s forwards",
                     }}
-                  >
-                    AI analysis in seconds ✨
-                  </p>
+                    >
+                    Analisis AI dalam hitungan detik ✨
+                    </p>
                 </div>
 
                 {/* Decorative Elements */}
@@ -330,20 +330,20 @@ export default function Featured() {
                   <div className="custom-block-overlay-text d-flex">
                     <div>
                       <h5 className="text-white mb-2">
-                        Build Your Professional CV
+                        Buat CV Profesional Kamu
                       </h5>
 
                       <p className="text-white">
-                        Choose from a variety of ATS-friendly templates and
-                        create a stunning CV tailored to your career goals in
-                        minutes, powered by AI assistance.
+                        Pilih dari puluhan template ATS-friendly dan buat CV 
+                        stunning yang disesuaikan dengan target karir kamu dalam 
+                        hitungan detik, powered by AI assistance.
                       </p>
 
                       <Link
                         href="/topics-detail"
                         className="btn custom-btn mt-2 mt-lg-3"
                       >
-                        Start Building Your CV
+                        Mulai Buat CV Gratis
                       </Link>
                     </div>
                   </div>

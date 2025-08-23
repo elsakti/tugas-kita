@@ -12,11 +12,11 @@ export default function Search() {
                         type="search"
                         className="form-control"
                         id="keyword"
-                        placeholder="Design, Code, Marketing, Finance ..."
+                        placeholder="Cari template untuk posisi impian kamu..."
                         aria-label="Search"
                     />
 
-                    <button type="submit" className="form-control">Search</button>
+                    <button type="submit" className="form-control">Cari</button>
                 </div>
             </form>
         </>

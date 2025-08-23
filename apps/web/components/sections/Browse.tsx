@@ -7,7 +7,7 @@ export default function Browse() {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="mb-4">Browse Topics</h2>
+              <h2 className="mb-4">Template CV Berdasarkan Profesi</h2>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function Browse() {
                   aria-controls="design-tab-pane"
                   aria-selected="true"
                 >
-                  Design
+                  Creative
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -39,7 +39,7 @@ export default function Browse() {
                   aria-controls="marketing-tab-pane"
                   aria-selected="false"
                 >
-                  Marketing
+                  Professional
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -53,7 +53,7 @@ export default function Browse() {
                   aria-controls="finance-tab-pane"
                   aria-selected="false"
                 >
-                  Finance
+                  ATS-Friendly
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -67,7 +67,7 @@ export default function Browse() {
                   aria-controls="music-tab-pane"
                   aria-selected="false"
                 >
-                  Music
+                  Tech
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -81,7 +81,7 @@ export default function Browse() {
                   aria-controls="education-tab-pane"
                   aria-selected="false"
                 >
-                  Education
+                  Fresh Graduate
                 </button>
               </li>
             </ul>
@@ -104,13 +104,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Web Design</h5>
+                              <h5 className="mb-2">Graphic Designer</h5>
                               <p className="mb-0">
-                                Topic Listing Template based on Bootstrap 5
+                                Template kreatif untuk portfolio visual yang menawan
                               </p>
                             </div>
                             <span className="badge bg-design rounded-pill ms-auto">
-                              14
+                              12+
                             </span>
                           </div>
                           <Image
@@ -128,13 +128,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Graphic</h5>
+                              <h5 className="mb-2">UI/UX Designer</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template modern untuk showcase product design
                               </p>
                             </div>
                             <span className="badge bg-design rounded-pill ms-auto">
-                              75
+                              8+
                             </span>
                           </div>
                           <Image
@@ -152,13 +152,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Logo Design</h5>
+                              <h5 className="mb-2">Content Creator</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template eye-catching untuk social media creator
                               </p>
                             </div>
                             <span className="badge bg-design rounded-pill ms-auto">
-                              100
+                              6+
                             </span>
                           </div>
                           <Image
@@ -186,13 +186,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Advertising</h5>
+                              <h5 className="mb-2">Business Manager</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template profesional untuk eksekutif dan manajer
                               </p>
                             </div>
                             <span className="badge bg-advertising rounded-pill ms-auto">
-                              30
+                              15+
                             </span>
                           </div>
                           <Image
@@ -210,13 +210,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Video Content</h5>
+                              <h5 className="mb-2">Sales Executive</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template yang menonjolkan achievement dan results
                               </p>
                             </div>
                             <span className="badge bg-advertising rounded-pill ms-auto">
-                              65
+                              10+
                             </span>
                           </div>
                           <Image
@@ -234,13 +234,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Viral Tweet</h5>
+                              <h5 className="mb-2">HR Specialist</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template clean untuk posisi human resources
                               </p>
                             </div>
                             <span className="badge bg-advertising rounded-pill ms-auto">
-                              50
+                              7+
                             </span>
                           </div>
                           <Image
@@ -268,13 +268,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Investment</h5>
+                              <h5 className="mb-2">Corporate ATS</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template yang pass screening system perusahaan besar
                               </p>
                             </div>
                             <span className="badge bg-finance rounded-pill ms-auto">
-                              30
+                              20+
                             </span>
                           </div>
                           <Image
@@ -299,17 +299,16 @@ export default function Browse() {
                           />
                           <div className="custom-block-overlay-text d-flex">
                             <div>
-                              <h5 className="text-white mb-2">Finance</h5>
+                              <h5 className="text-white mb-2">ATS Optimization</h5>
                               <p className="text-white">
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Sint animi necessitatibus
-                                aperiam repudiandae nam omnis
+                                Template yang dirancang khusus untuk lolos sistem ATS
+                                dengan keyword optimization dan format yang tepat
                               </p>
                               <a
                                 href="topics-detail.html"
                                 className="btn custom-btn mt-2 mt-lg-3"
                               >
-                                Learn More
+                                Scan CV Gratis
                               </a>
                             </div>
                             <span className="badge bg-finance rounded-pill ms-auto">
@@ -362,13 +361,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Composing Song</h5>
+                              <h5 className="mb-2">Software Engineer</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template teknis dengan section untuk projects & skills
                               </p>
                             </div>
                             <span className="badge bg-music rounded-pill ms-auto">
-                              45
+                              25+
                             </span>
                           </div>
                           <Image
@@ -386,13 +385,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Online Music</h5>
+                              <h5 className="mb-2">Data Scientist</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template yang highlight analytical skills & portfolio
                               </p>
                             </div>
                             <span className="badge bg-music rounded-pill ms-auto">
-                              45
+                              12+
                             </span>
                           </div>
                           <Image
@@ -410,13 +409,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Podcast</h5>
+                              <h5 className="mb-2">DevOps Engineer</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template untuk tech infrastructure specialist
                               </p>
                             </div>
                             <span className="badge bg-music rounded-pill ms-auto">
-                              20
+                              8+
                             </span>
                           </div>
                           <Image
@@ -444,13 +443,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Graduation</h5>
+                              <h5 className="mb-2">Fresh Graduate</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template entry-level untuk lulusan baru tanpa pengalaman
                               </p>
                             </div>
                             <span className="badge bg-education rounded-pill ms-auto">
-                              80
+                              15+
                             </span>
                           </div>
                           <Image
@@ -468,13 +467,13 @@ export default function Browse() {
                         <a href="topics-detail.html">
                           <div className="d-flex">
                             <div>
-                              <h5 className="mb-2">Educator</h5>
+                              <h5 className="mb-2">Career Changer</h5>
                               <p className="mb-0">
-                                Lorem Ipsum dolor sit amet consectetur
+                                Template untuk transisi karir dengan transferable skills
                               </p>
                             </div>
                             <span className="badge bg-education rounded-pill ms-auto">
-                              75
+                              10+
                             </span>
                           </div>
                           <Image

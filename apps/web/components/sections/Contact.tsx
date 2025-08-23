@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-12 text-center">
-              <h2 className="mb-5">Get in touch</h2>
+              <h2 className="mb-5">Kontak & Partnership</h2>
             </div>
 
             <div className="col-lg-5 col-12 mb-4 mb-lg-0">
@@ -25,51 +25,51 @@ export default function Contact() {
             </div>
 
             <div className="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-              <h4 className="mb-3">Head office</h4>
+              <h4 className="mb-3">General Support</h4>
 
               <p>
-                Bay St &amp;, Larkin St, San Francisco, CA 94109, United States
+                Bantu pengguna dengan pertanyaan seputar CV building dan platform
               </p>
 
               <hr />
 
               <p className="d-flex align-items-center mb-1">
-                <span className="me-2">Phone</span>
+                <span className="me-2">WhatsApp</span>
 
-                <a href="tel: 305-240-9671" className="site-footer-link">
-                  305-240-9671
+                <a href="https://wa.me/6281234567890" className="site-footer-link">
+                  +62 812-3456-7890
                 </a>
               </p>
 
               <p className="d-flex align-items-center">
                 <span className="me-2">Email</span>
 
-                <a href="mailto:info@company.com" className="site-footer-link">
-                  info@company.com
+                <a href="mailto:support@tugaskita.com" className="site-footer-link">
+                  support@tugaskita.com
                 </a>
               </p>
             </div>
 
             <div className="col-lg-3 col-md-6 col-12 mx-auto">
-              <h4 className="mb-3">Dubai office</h4>
+              <h4 className="mb-3">Recruiter Partnership</h4>
 
-              <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
+              <p>Cari talent terbaik? Kerjasama dengan kami untuk akses database CV berkualitas</p>
 
               <hr />
 
               <p className="d-flex align-items-center mb-1">
-                <span className="me-2">Phone</span>
+                <span className="me-2">Business</span>
 
-                <a href="tel: 110-220-3400" className="site-footer-link">
-                  110-220-3400
+                <a href="https://wa.me/6281234567891" className="site-footer-link">
+                  +62 812-3456-7891
                 </a>
               </p>
 
               <p className="d-flex align-items-center">
                 <span className="me-2">Email</span>
 
-                <a href="mailto:info@company.com" className="site-footer-link">
-                  info@company.com
+                <a href="mailto:partnership@tugaskita.com" className="site-footer-link">
+                  partnership@tugaskita.com
                 </a>
               </p>
             </div>

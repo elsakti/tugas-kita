@@ -8,7 +8,7 @@ export default function Timeline() {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="text-white mb-4">How does it work?</h2>
+              <h2 className="text-white mb-4">Cara Kerja TugasKita</h2>
             </div>
             <div className="col-lg-10 col-12 mx-auto">
               <div className="timeline-container">
@@ -21,42 +21,39 @@ export default function Timeline() {
                   </div>
                   <li>
                     <h4 className="text-white mb-3">
-                      Search your favourite topic
+                      Upload & Scan CV Kamu
                     </h4>
                     <p className="text-white">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Reiciendis, cumque magnam? Sequi, cupiditate quibusdam
-                      alias illum sed esse ad dignissimos libero sunt, quisquam
-                      numquam aliquam? Voluptas, accusamus omnis?
+                      Upload CV yang sudah ada atau mulai dari nol. AI kami akan 
+                      menganalisis ATS score, memberikan feedback spesifik, dan 
+                      merekomendasikan template yang cocok untuk posisi impian kamu.
                     </p>
                     <div className="icon-holder">
-                      <i className="bi-search" />
+                      <i className="bi-file-earmark-arrow-up" />
                     </div>
                   </li>
                   <li>
                     <h4 className="text-white mb-3">
-                      Bookmark &amp; Keep it for yourself
+                      Pilih Template & Customize
                     </h4>
                     <p className="text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sint animi necessitatibus aperiam repudiandae nam omnis
-                      est vel quo, nihil repellat quia velit error modi earum
-                      similique odit labore. Doloremque, repudiandae?
+                      Pilih dari puluhan template gratis dan premium yang disesuaikan 
+                      dengan profesi dan wilayah kamu. Edit dengan AI assistance untuk 
+                      hasil yang optimal dan sesuai job description target.
                     </p>
                     <div className="icon-holder">
-                      <i className="bi-bookmark" />
+                      <i className="bi-palette" />
                     </div>
                   </li>
                   <li>
-                    <h4 className="text-white mb-3">Read &amp; Enjoy</h4>
+                    <h4 className="text-white mb-3">Download & Apply</h4>
                     <p className="text-white">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Animi vero quisquam, rem assumenda similique voluptas
-                      distinctio, iste est hic eveniet debitis ut ducimus beatae
-                      id? Quam culpa deleniti officiis autem?
+                      Export CV kamu ke PDF gratis atau DOC premium. Langsung apply 
+                      ke job dengan confidence tinggi! Coming soon: job matching 
+                      otomatis berdasarkan profile CV kamu.
                     </p>
                     <div className="icon-holder">
-                      <i className="bi-book" />
+                      <i className="bi-download" />
                     </div>
                   </li>
                 </ul>
@@ -64,9 +61,9 @@ export default function Timeline() {
             </div>
             <div className="col-12 text-center mt-5">
               <p className="text-white">
-                Want to learn more?
+                Siap membuat CV impian kamu?
                 <a href="#" className="btn custom-btn custom-border-btn ms-3">
-                  Check out Youtube
+                  Mulai Gratis Sekarang
                 </a>
               </p>
             </div>

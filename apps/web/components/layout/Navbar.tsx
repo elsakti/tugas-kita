@@ -32,12 +32,12 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link click-scroll" href="#section_2">
-                Scan CV
+                Template CV
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link click-scroll" href="#section_3">
-                How it works
+                Cara Kerja
               </a>
             </li>
             <li className="nav-item">
@@ -47,7 +47,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link click-scroll" href="#section_5">
-                Contact
+                Partnership
               </a>
             </li>
           </ul>

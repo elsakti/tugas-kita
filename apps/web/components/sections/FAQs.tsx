@@ -32,7 +32,7 @@ export default function FAQs() {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      What is Topic Listing?
+                      Apakah TugasKita benar-benar gratis?
                     </button>
                   </h2>
                   <div
@@ -42,13 +42,10 @@ export default function FAQs() {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      Topic Listing is free Bootstrap 5 CSS template.{" "}
-                      <strong>
-                        You are not allowed to redistribute this template
-                      </strong>{" "}
-                      on any other template collection website without our
-                      permission. Please contact TemplateMo for more detail.
-                      Thank you.
+                      Ya! TugasKita menyediakan fitur dasar secara gratis termasuk AI scanner, 
+                      beberapa template, dan export PDF. <strong>Versi premium</strong> memberikan 
+                      akses ke semua template, export DOC, dan fitur AI advanced untuk optimasi 
+                      maksimal CV kamu.
                     </div>
                   </div>
                 </div>
@@ -62,7 +59,7 @@ export default function FAQs() {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      How to find a topic?
+                      Bagaimana AI scanner bekerja?
                     </button>
                   </h2>
                   <div
@@ -72,9 +69,9 @@ export default function FAQs() {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      You can search on Google with <strong>keywords</strong>{" "}
-                      such as templatemo portfolio, templatemo one-page layouts,
-                      photography, digital marketing, etc.
+                      AI kami menganalisis format, keyword, struktur, dan ATS compatibility CV kamu. 
+                      Memberikan <strong>feedback spesifik</strong> seperti saran penempatan keyword, 
+                      perbaikan format, dan rekomendasi template yang cocok untuk industri target kamu.
                     </div>
                   </div>
                 </div>
@@ -88,7 +85,7 @@ export default function FAQs() {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      Does it need to paid?
+                      Apakah ada kerjasama untuk recruiter?
                     </button>
                   </h2>
                   <div
@@ -98,11 +95,9 @@ export default function FAQs() {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      You can modify any of this with custom CSS or overriding
-                      our default variables. It's also worth noting that just
-                      about any HTML can go within the
-                      <code>.accordion-body</code>, though the transition does
-                      limit overflow.
+                      Tentu! Kami terbuka untuk partnership dengan recruiter dan perusahaan 
+                      yang membutuhkan talent dengan keahlian spesifik. Hubungi kami untuk 
+                      diskusi kerjasama dalam talent acquisition dan CV database access.
                     </div>
                   </div>
                 </div>

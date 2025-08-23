@@ -21,38 +21,43 @@ export default function Footer() {
             <div className="col-lg-3 col-md-4 col-6">
               <h6 className="site-footer-title mb-3">Resources</h6>
               <ul className="site-footer-links">
+              <li className="site-footer-link-item">
+              <a href="#section_1" className="site-footer-link">
+              Home
+              </a>
+              </li>
+              <li className="site-footer-link-item">
+              <a href="#section_2" className="site-footer-link">
+              Template CV
+              </a>
+              </li>
+              <li className="site-footer-link-item">
+              <a href="#section_3" className="site-footer-link">
+              Cara Kerja
+              </a>
+              </li>
+              <li className="site-footer-link-item">
+              <a href="#section_4" className="site-footer-link">
+              FAQs
+              </a>
+              </li>
                 <li className="site-footer-link-item">
-                  <a href="#" className="site-footer-link">
-                    Home
-                  </a>
-                </li>
-                <li className="site-footer-link-item">
-                  <a href="#" className="site-footer-link">
-                    How it works
-                  </a>
-                </li>
-                <li className="site-footer-link-item">
-                  <a href="#" className="site-footer-link">
-                    FAQs
-                  </a>
-                </li>
-                <li className="site-footer-link-item">
-                  <a href="#" className="site-footer-link">
-                    Contact
-                  </a>
-                </li>
-              </ul>
+                    <a href="#section_5" className="site-footer-link">
+                      Partnership
+                    </a>
+                  </li>
+                </ul>
             </div>
             <div className="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
               <h6 className="site-footer-title mb-3">Information</h6>
               <p className="text-white d-flex mb-1">
-                <a href="tel: 305-240-9671" className="site-footer-link">
-                  305-240-9671
+                <a href="https://wa.me/6281234567890" className="site-footer-link">
+                  +62 812-3456-7890
                 </a>
               </p>
               <p className="text-white d-flex">
-                <a href="mailto:info@company.com" className="site-footer-link">
-                  info@company.com
+                <a href="mailto:support@tugaskita.com" className="site-footer-link">
+                  support@tugaskita.com
                 </a>
               </p>
             </div>
@@ -85,10 +90,10 @@ export default function Footer() {
                 </ul>
               </div>
               <p className="copyright-text mt-lg-5 mt-4">
-                Copyright © 2048 Topic Listing Center. All rights reserved.
+                Copyright © 2025 TugasKita. All rights reserved.
                 <br />
                 <br />
-                Design: <a href="https://templatemo.com">TemplateMo</a>
+                CV Builder Indonesia untuk Asia Tenggara
               </p>
             </div>
           </div>
